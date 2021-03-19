@@ -46,7 +46,10 @@ padding-bottom: 0;
   }
 
 .download-button{
-  margin: 30px 30px 70px 0;
+  margin: 30px 30px 0 0;
+}
+.col-lg-6{
+  padding-bottom: 100px;
 }
 
 .img-iphone{
@@ -59,8 +62,8 @@ padding-bottom: 0;
 /* Features */
 #features{
   padding: 2.5% 0;
-position: relative;
-z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 .features-heading{
   font-size: 1.5rem;
@@ -127,7 +130,9 @@ z-index: 1;
 #cta{
   padding: 7% 10% 0;
 }
-
+.cta-container{
+  padding-bottom: 80px;
+}
 .cta-heading-h3{
   padding: 0 25%;
   font-weight: 900;
@@ -160,5 +165,63 @@ z-index: 1;
   }
   #title{
     text-align: center;
+
+  }
+  .big-heading{
+    font-size: 3.2rem;
+    font-weight: 700;
+  }
+}
+@media (max-width:600px){
+  .testimonials-heading{
+    font-size: 2.5rem;
+  }
+  .img-testimonials{
+    width: 60px;
+  }
+  .features-box{
+    padding: 0;
+    font-size: 90%;
+  }
+  .features-icon{
+    font-size: 30px;
+  }
+  .features-heading{
+    font-size: 1.1rem;
+  }
+  .pricing-heading{
+    font-size: 2.5rem;
+  }
+  .card{
+    /* width: 50%; */
+    font-size: 80%;
+  }
+  .pricing-heading{
+    font-size: 150%;
+  }
+  .pricing-heading-h3{
+    font-size: 200%;
+  }
+  .pricing-btn{
+    width: 80%;
+    padding: 2px;
+    margin: 0 auto;
+  }
+  .card-body{
+    /* text-align: center; */
+    line-height: 0.8;
+  }
+  .cta-heading-h3{
+    font-size: 200%;
+    padding: 0 6px;
+  }
+  .download-button{
+    font-size: 100%;
+  }
+  #pricing{
+    padding: 100px 50px;
+  }
+  .carousel-item{
+    padding: 7% 10%;
   }
 }
