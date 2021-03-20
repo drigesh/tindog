@@ -2,6 +2,8 @@
 
 Dating App for your pets(dogs), you can find here interesting and lovely partner for your pet.
 
+_- This site is made using HTML, CSS and Bootstrap (CSS framework)._
+
 ## Usage
 For Web Users
 > Visit on [tindog website](https://drigesh.github.io/tindog/)  or  ``` 
